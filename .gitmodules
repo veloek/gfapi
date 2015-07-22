@@ -1,0 +1,3 @@
+[submodule "lib/php-rest"]
+	path = lib/php-rest
+	url = git://github.com/veloek/php-rest.git
