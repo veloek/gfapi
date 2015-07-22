@@ -46,7 +46,7 @@ class GamesService extends Service {
         $game->name = 'Snake for Game Frame';
         $game->version = '0.0.1';
         $game->author = 'Vegard Løkken';
-        $game->url = "$_SERVER['HTTP_HOST']$_SERVER['REQUEST_URI']/GFSnake.jar";
+        $game->url = "{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}/GFSnake.jar";
 
         $tmp->games[] = $game;
 
