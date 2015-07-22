@@ -1,5 +1,5 @@
 <?php
-require_once('lib' . DIRECTORY_SEPARATOR . 'php-rest' . DIRECTORY_SEPARATOR . 'Server.php');
+require_once('lib' . DIRECTORY_SEPARATOR . 'php-rest' . DIRECTORY_SEPARATOR . 'rest' . DIRECTORY_SEPARATOR . 'Server.php');
 
 $server = new Server("Game Frame Web Services");
 
